@@ -1,0 +1,20 @@
+{
+  "name": "ananay-rea-plugins",
+  "interface": {
+    "displayName": "Ananay's REA Plugins"
+  },
+  "plugins": [
+    {
+      "name": "rea-local",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rea-local"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
