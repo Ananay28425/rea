@@ -1,0 +1,35 @@
+{
+  "name": "rea-local",
+  "version": "0.1.0",
+  "description": "A Windows local plugin for the REA MCP server and evidence-based reverse-engineering workflow.",
+  "author": {
+    "name": "Ananay Srivastava",
+    "url": "https://github.com/Ananay28425"
+  },
+  "homepage": "https://github.com/Ananay28425/rea",
+  "repository": "https://github.com/Ananay28425/rea",
+  "license": "MIT",
+  "keywords": [
+    "reverse-engineering",
+    "mcp",
+    "windows",
+    "binary-analysis",
+    "electron",
+    "rea"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "REA Local",
+    "shortDescription": "Local reverse engineering",
+    "longDescription": "Use REA's existing local MCP server and evidence workflows to inspect binaries, JavaScript and Electron applications, managed assemblies, and supported runtime behavior. This Windows configuration requires a local MCP-capable host and existing analysis prerequisites.",
+    "developerName": "Ananay Srivastava",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Inspect this local application with REA and explain the feature using evidence.",
+      "Compare these two local artifacts and identify the relevant behavioral changes."
+    ],
+    "websiteURL": "https://github.com/Ananay28425/rea"
+  }
+}
